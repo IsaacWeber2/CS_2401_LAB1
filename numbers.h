@@ -1,7 +1,7 @@
 
 /**
  *   @file: numbers.h
- * @author: <Enter your name here>
+ * @author: Isaac Weber
  *   @date: June 13, 2021
  *  @brief: A little class that holds a dynamic array of numbers
  */
