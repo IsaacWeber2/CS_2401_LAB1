@@ -73,7 +73,7 @@ void Numbers::operator = (const Numbers& other){
     }
     delete[] n2;
     int new_array[capacity];
-    for (int i = 0; i < capacity; i ++)
+    for (int i = 0; i < used; i ++)
     {
         new_array[i] = other[i];
     }
