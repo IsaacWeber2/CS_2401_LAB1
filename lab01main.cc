@@ -1,6 +1,6 @@
 /**
  *   @file: lab1main.cc
- * @author: <Enter your name here>
+ * @author: Isaac Weber
  *   @date: June 13, 2021
  *  @brief: This is the main for Lab Assignment 1.
         You will be creating the Numbers class that it uses.
