@@ -41,7 +41,7 @@ int main() {
 	cout << endl;
 
 	// Uncomment the following to do Part 2
-	/*
+	
     unsigned long start, stop, running;
 
     start = time(NULL);
@@ -55,7 +55,7 @@ int main() {
 
                 Numbers n3;
 
-                for(int i = 0; i < 100; i++){
+                for(int i = 0; i < 10; i++){
 
                     n3.add(item);
                 }
@@ -76,7 +76,7 @@ int main() {
     running = (stop - start)/60;
 
     cout<<endl<<"Running took "<<running<<" minutes.\n";
-    */
+    
     cout << "\nTotal bytes allocated = " << byte_count << endl;
 	
     return 0;
