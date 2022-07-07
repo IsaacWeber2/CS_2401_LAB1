@@ -20,9 +20,9 @@ class Numbers {
     void display(ostream& outs);
     unsigned long* reveal_address() const;
     // This is added after first three questions answered:
-    //void operator = (const Numbers& other);
+    void operator = (const Numbers& other);
     // This is used in Part 2 and would normally not be in a container	unsigned
-    // long * reveal_address()const;
+    //long * reveal_address()const;
     // This is a function that you add in Part 2
     ~Numbers();
    private:
@@ -66,7 +66,7 @@ unsigned long* Numbers::reveal_address() const { return data; }
 
 // You will need to write the implementation of this overloaded operator
 
-/*void Numbers::operator = (const Numbers& other){
+void Numbers::operator = (const Numbers& other){
 
     if (this != &other)
     {
@@ -83,5 +83,11 @@ unsigned long* Numbers::reveal_address() const { return data; }
     }
     
 }
-*/
 
+
+Numbers ::~Numbers()
+{
+    delete [] data;
+    byte_count = byte_count - capacity *sizeof(unsigned long);
+    
+}
